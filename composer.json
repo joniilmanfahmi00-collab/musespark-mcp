@@ -1,0 +1,19 @@
+{
+  "name": "aa-ilman/musespark-mcp",
+  "description": "MCP bridge for WordPress, WooCommerce, Yoast SEO, CRM, newsletter, and business automation.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=8.2",
+    "firebase/php-jwt": "^7.1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MuseSparkMCP\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

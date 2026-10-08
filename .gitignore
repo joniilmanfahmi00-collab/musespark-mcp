@@ -1,0 +1,35 @@
+# Dependencies (install via composer/npm)
+node_modules/
+vendor/
+
+# Logs & debug
+*.log
+debug.log
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local WP/CLI config
+wp-cli.local.yml
+.env
+
+# Dependencies (install via composer/npm)
+node_modules/
+vendor/
+
+# Logs & debug
+*.log
+debug.log
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local WP/CLI config
+wp-cli.local.yml
+.env
