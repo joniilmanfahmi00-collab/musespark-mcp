@@ -11,8 +11,8 @@ import {
 
 const route = useRoute()
 const brandImageUrl = window.MusesparkMCP?.assetBaseUrl
-  ? new URL('brand.webp', window.MusesparkMCP.assetBaseUrl).href
-  : '/brand.webp'
+  ? new URL('brand.png', window.MusesparkMCP.assetBaseUrl).href
+  : '/brand.png'
 let resizeObserver: ResizeObserver | undefined
 let mutationObserver: MutationObserver | undefined
 let pendingHeightFrame = 0

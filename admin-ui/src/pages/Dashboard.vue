@@ -6,8 +6,8 @@ import { Clock3, FileText, KeyRound, ShieldCheck } from '@lucide/vue'
 const summary = ref<any>(null)
 const loading = ref(true)
 const museVideoUrl = window.MusesparkMCP?.assetBaseUrl
-  ? new URL('muse.mp4', window.MusesparkMCP.assetBaseUrl).href
-  : '/muse.mp4'
+  ? new URL('mascothi.mp4', window.MusesparkMCP.assetBaseUrl).href
+  : '/mascothi.mp4'
 
 onMounted(async () => {
   try {

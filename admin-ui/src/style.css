@@ -103,9 +103,7 @@ input {
   height: 40px;
   flex: none;
   place-items: center;
-  border: 1px solid var(--color-blue);
   border-radius: 12px;
-  background: var(--color-blue);
 }
 
 .brand-mark svg {
