@@ -15,6 +15,8 @@ WooCommerce products & stock, newsletter, daily reports) as standardized MCP
 tools, with a built-in **OAuth 2.1 authorization server** and a
 **human-in-the-loop approval queue** for every sensitive write action.
 
+> **Trademark Notice:** Muse, Muse Spark, and related marks are trademarks of Meta Platforms, Inc. This project is an independent community integration and is not affiliated with, endorsed by, or sponsored by Meta. All marks are used for identification and descriptive purposes only.
+
 ## Features
 
 - ✅ MCP spec **2025-06-18**: `initialize`, `ping`, `tools/*`, `resources/*`,
@@ -33,6 +35,48 @@ tools, with a built-in **OAuth 2.1 authorization server** and a
 - Official **MCP Inspector** v2.10.1 — connected over HTTPS with full OAuth flow
 - **Meta Muse Code** (Muse Spark 1.3) — live sessions creating real products
   and content drafts through the approval queue
+
+## Why Muse Spark 1.3?
+
+This plugin is designed and tested specifically with **Muse Spark 1.3**, the
+latest multimodal reasoning model from Meta AI. Here's why we chose it over
+earlier versions (1.1, 1.2):
+
+### Key Capabilities We Leverage
+
+| Feature | Used In | Benefit |
+|---|---|---|
+| **Native multimodal perception** | WooCommerce GUI automation (L3) | Agent can "see" dashboards without screenshots |
+| **Visual chain of thought** | Product image analysis, competitor monitoring | Reasoning about visual content (colors, layouts) |
+| **Robust tool-use protocol** | All 8 MCP tools | Reliable function calling with error handling |
+| **Multi-agent orchestration** | Future: Chat Agent MVP (L2 autonomy) | Coordinate between customer-service and inventory agents |
+| **MCP 2025-06-18 compliance** | OAuth flow, resource discovery | Verified end-to-end with official MCP Inspector |
+
+### What About 1.1 and 1.2?
+
+- **Muse Spark 1.1** (released 2025): First-generation multimodal model; lacks
+  the mature tool-use protocol and visual reasoning we need for business automation.
+- **Muse Spark 1.2** (released early 2026): Improved tool calling but still
+  experimental for complex multi-step workflows like OAuth consent flows and
+  approval queues.
+- **Muse Spark 1.3** (released April 2026): Production-ready for agentic tasks;
+  the only version we've verified end-to-end with live Muse Code sessions.
+
+### Forward Compatibility
+
+The plugin's MCP server is **protocol-agnostic** — it speaks MCP 2025-06-18, not
+Muse-specific APIs. This means:
+- If Meta releases Muse Spark 1.4, 2.0, or future models, the plugin works
+  without changes (as long as the model supports MCP).
+- Other MCP clients (Claude, Cursor, custom agents) can also connect to the same
+  WordPress server.
+
+### Verified Compatibility
+
+✅ Muse Code (Muse Spark 1.3) — live sessions creating products via approval queue  
+✅ MCP Inspector v2.10.1 — full OAuth 2.1 flow over HTTPS  
+⏳ Claude Desktop — planned testing after OAuth hardening  
+⏳ Meta AI Connectors — target submission after public release
 
 ## Quick Start
 
@@ -83,6 +127,9 @@ locally; hardening in progress before the public release:
 - [ ] Chat gateway (Telegram control bot + WhatsApp Cloud API)
 - [ ] Autonomy levels L0–L3 per domain
 - [ ] wordpress.org submission package
+
+**Powered by:** Muse Spark 1.3 (Meta AI) — chosen for native multimodal reasoning,
+robust MCP tool-use, and production-grade agentic capabilities.
 
 ## License
 
