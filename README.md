@@ -1,4 +1,4 @@
-# MuseSpark MCP Bridge
+# MuseSpark MCP Bridge (unofficial)
 
 > Turn your WordPress + WooCommerce store into a Model Context Protocol (MCP)
 > server — so AI agents like Meta Muse Spark can safely run your business.
