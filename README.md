@@ -15,6 +15,9 @@ WooCommerce products & stock, newsletter, daily reports) as standardized MCP
 tools, with a built-in **OAuth 2.1 authorization server** and a
 **human-in-the-loop approval queue** for every sensitive write action.
 
+<img width="1440" height="789" alt="brave_rYavpUKLDt" src="https://github.com/user-attachments/assets/3b697f0c-17f6-42c1-851e-7901dd1f64cd" />
+
+
 > **Trademark Notice:** Muse, Muse Spark, and related marks are trademarks of Meta Platforms, Inc. This project is an independent community integration and is not affiliated with, endorsed by, or sponsored by Meta. All marks are used for identification and descriptive purposes only.
 
 ## Features
